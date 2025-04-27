@@ -1,4 +1,4 @@
-package PACKAGE_NAME;
-
-public class EpisodeIterator {
+public interface EpisodeIterator {
+    boolean hasNext();
+    Episode next();
 }
